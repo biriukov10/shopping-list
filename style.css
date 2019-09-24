@@ -13,6 +13,7 @@ header {
   color: rgba(228, 24, 24, 0.767);
   font-size: 20px;
   background-color: rgb(68, 64, 64);
+  line-height: 30px;
   padding: 10px;
 }
 .wrap {
@@ -39,7 +40,7 @@ header {
   float: left;
 }
  .list div span {
-  text-align: center;
+  /* text-align: center; */
 }
 .list input {
   float: left;
@@ -58,6 +59,7 @@ header {
   font-size: 23px;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
+  line-height: 40px;
 }
 .list li:nth-child(odd) {
   background-color: rgb(117, 45, 185);
