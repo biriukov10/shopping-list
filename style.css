@@ -2,10 +2,10 @@
   box-sizing: border-box;
 } */
 body {
-  font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
- height: 150vh;
- background-color: #000;
- box-sizing: border-box;
+  font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  height: 150vh;
+  background-color: #000;
+  box-sizing: border-box;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
   padding: 10px;
 }
 .wrap {
-  max-width:100%;
+  max-width: 100%;
   /* width: 1350px; */
   margin: 0 auto;
 }
@@ -40,7 +40,7 @@ header {
   font-size: 23px;
   float: left;
 }
- .list div span {
+.list div span {
   /* text-align: center; */
 }
 .list input {
@@ -49,14 +49,12 @@ header {
 
 /* пытаюсь сделать что бы при нажатии на блок везде сработало свойство*/
 
-
-
 .list li {
   width: 600px;
   height: 45px;
   list-style: none;
   color: azure;
-  padding: 2px; 
+  padding: 2px;
   font-size: 23px;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
@@ -72,20 +70,20 @@ input[type="checkbox"] {
   width: 20px;
   height: 28px;
 }
-.span-group{
+.span-group {
   font-size: 17px;
-  color: rgb(191, 223, 223);;
+  color: rgb(191, 223, 223);
 }
 
 .span-group::before {
-  content: "("
+  content: "(";
 }
 .span-group::after {
-  content: ")"
+  content: ")";
 }
 .list li:hover {
-opacity: 0.7;
-border-color: aliceblue;
+  opacity: 0.7;
+  border-color: aliceblue;
 }
 input[type="checkbox"]:checked + span,
 input[type="checkbox"]:checked + h2,
@@ -110,7 +108,7 @@ input[type="checkbox"]:checked + span + span {
 .btn:hover {
   color: azure;
   font-size: 2.5em;
-  background-color:  rgb(136, 100, 170);  
+  background-color: rgb(136, 100, 170);
 }
 li label {
   display: block;
@@ -142,3 +140,6 @@ li label {
   background-color:  rgb(136, 100, 170);
 
 } */
+.hide {
+  visibility: hidden;
+}
