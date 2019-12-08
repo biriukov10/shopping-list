@@ -113,6 +113,16 @@ input[type="checkbox"]:checked + span + span {
 li label {
   display: block;
 }
+
+.ba-tooltip {
+  font-size: 24px;
+  background-color: #0053a5;
+  color: #fff;
+  border-radius: 4px;
+  min-height: 80px;
+  text-align: center;
+}
+
 /* .section-2 {
   width: 600px;
   height: 90px;
@@ -140,6 +150,3 @@ li label {
   background-color:  rgb(136, 100, 170);
 
 } */
-.hide {
-  visibility: hidden;
-}

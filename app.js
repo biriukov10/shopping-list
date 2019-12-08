@@ -35,6 +35,8 @@ let btnForForm = document.createElement('button');
 btnForForm.textContent = 'add';
 form.appendChild(inpElem);
 form.appendChild(btnForForm);
+
+
 let firstForm = document.querySelector('.form');
 firstForm.insertAdjacentElement('afterEnd', form);
 form.style.display = 'flex';
