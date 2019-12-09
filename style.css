@@ -115,12 +115,27 @@ li label {
 }
 
 .ba-tooltip {
-  font-size: 24px;
+  display: none;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 5px;
+  font-size: 16px;
   background-color: #0053a5;
   color: #fff;
   border-radius: 4px;
-  min-height: 80px;
+  min-height: 30px;
+  max-width: 250px;
   text-align: center;
+  vertical-align: middle;
+}
+
+.ba-tooltip::after {
+  content: "";
+  position: absolute;
+  right: 75%;
+  bottom: -25px;
+  border: 10px solid transparent;
+  border-top: 20px solid #0053a5;
 }
 
 /* .section-2 {

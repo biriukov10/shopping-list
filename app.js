@@ -98,8 +98,6 @@ for (let i = 0; i < allLiHover.length; i++) {
 }
 
 
-
-
 // удаление едемента ли по нажатию кнопки
 let removeBtn = document.querySelectorAll('.del');
 
@@ -107,4 +105,15 @@ document.body.onclick = function (e) {
   if (e.target.classList.contains('del')) {
     e.target.closest('li').remove();
   }
+}
+inpElem.style.cssText = 'width: 200px; height: 30px; border: 1px solid transparent;border-radius: 5px 0 0 5px; border-right: none; opasity: .6;';
+btnForForm.style.cssText = 'width: 50px; height: 34px;color: #fff; font-weight: bold; background: inherit; border: 1px solid #fff;'
+
+
+let modalWindow = document.querySelector('.ba-tooltip');
+
+inpElem.onfocus = function () {
+  modalWindow.style.display = 'block';
+  modalWindow.style.bottom = '80px';
+  modalWindow.style.left = '270px';
 }
