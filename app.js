@@ -83,7 +83,6 @@ btnForForm.onclick = function (event) {
     ulListItemSecond.removeChild(liItemSecond);
   } else {
     spanItemOneSecond.innerText = inpElem.value;
-    event.preventDefault;
   }
 }
 let allLiHover = document.querySelectorAll('li');
